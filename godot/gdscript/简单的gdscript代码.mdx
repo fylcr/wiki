@@ -1,0 +1,21 @@
+我们来学习简单的gdscript代码
+# 一、第一个gdscript代码
+把下面的代码粘贴到godot里然后运行
+
+```gdscript
+extends Node2D
+
+func _enter_tree():
+	print("Hello word!")
+```
+运行后,你就能看到输出面板输出了`Hello world`字样,这就是你的第一个gdscript代码
+
+在这几行代码里,我们可以看到:
+| 代码 | 说明 |
+|------------------|----------------------------------|
+| `Node`           | 通用逻辑节点                     |
+| `Node2D`         | 2D 基础节点（含位置、旋转等属性） |
+| `Sprite2D`       | 2D 精灵/图片显示                |
+| `CharacterBody2D`| 2D 角色移动控制                 |
+| `Control`        | UI 控件基类                     |
+| `RefCounted`     | 纯数据对象（不依赖场景树）       |
